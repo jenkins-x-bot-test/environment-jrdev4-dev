@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: jrdev4
+  name: cb-kubecd-jrdev4
+spec:
+  description: Imported application for cb-kubecd/jrdev4
+  httpCloneURL: https://github.com/cb-kubecd/jrdev4.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jrdev4
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/jrdev4.git
