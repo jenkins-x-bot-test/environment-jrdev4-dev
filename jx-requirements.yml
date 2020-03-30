@@ -19,9 +19,9 @@ cluster:
   zone: europe-west1-b
 environments:
 - ingress:
-    domain: ""
+    domain: rawlingsdemo.co.uk
     externalDNS: false
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
